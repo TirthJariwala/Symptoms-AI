@@ -1,0 +1,202 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+
+# =========================
+
+# Virtual Environments
+
+# =========================
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+
+# Jupyter
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Build & Distribution
+
+# =========================
+
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+*.egg
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.log
+
+# =========================
+
+# Testing
+
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+
+# IDEs
+
+# =========================
+
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+
+# Operating System Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# AI Models
+
+# =========================
+
+# Uncomment if you DON'T want models in Git
+
+# *.h5
+
+# *.pt
+
+# *.pth
+
+# *.onnx
+
+# *.joblib
+
+# *.pkl
+
+# =========================
+
+# Datasets
+
+# =========================
+
+dataset/
+datasets/
+data/
+uploads/
+temp/
+
+# =========================
+
+# Generated Files
+
+# =========================
+
+results/
+predictions/
+reports/
+cache/
+tmp/
+temp/
+
+# =========================
+
+# Streamlit / Gradio
+
+# =========================
+
+.streamlit/
+.gradio/
+
+# =========================
+
+# Node.js (if frontend exists)
+
+# =========================
+
+node_modules/
+.next/
+out/
+build/
+
+# =========================
+
+# React
+
+# =========================
+
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# AI Service Virtual Environment
+Ai Service/venv/
+Ai Service/.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# DLL files
+*.dll
+
+# Node
+node_modules/

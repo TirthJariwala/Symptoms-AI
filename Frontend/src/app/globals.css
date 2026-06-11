@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F5F7FB;
+  --card: #FFFFFF;
+  --primary: #3B6FD4;
+  --primary-light: #EEF3FC;
+  --teal: #2A9D8F;
+  --teal-light: #E8F6F4;
+  --danger: #E63946;
+  --warning: #F4A261;
+  --success: #2DC653;
+  --text-primary: #1A2744;
+  --text-secondary: #64748B;
+  --border: #E2E8F0;
+  --sidebar: #1A2744;
+  --sidebar-width: 260px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #f0f4f8 25%, #e8edf2 50%, #f0f4f8 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.heatmap-overlay {
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+
+.gauge-track {
+  stroke: #E2E8F0;
+  stroke-width: 10;
+  fill: none;
+}
+
+.gauge-fill {
+  stroke-width: 10;
+  fill: none;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.card-interactive {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card-interactive:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08), 0 12px 32px rgba(0,0,0,0.06);
+  transform: translateY(-1px);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.nav-item-active {
+  background: rgba(59, 111, 212, 0.15);
+  color: #7EB0FF;
+}
+
+.nav-item-active svg {
+  color: #7EB0FF;
+}
+
+@media print {
+  aside,
+  header,
+  nav,
+  button:not(.print-keep) {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

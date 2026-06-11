@@ -1,0 +1,23 @@
+# Core DL
+torch==2.2.2
+torchvision==0.17.2
+tensorflow==2.16.1
+keras==3.3.3
+
+# RL
+stable-baselines3==2.3.2
+gymnasium==0.29.1
+
+# CV
+opencv-python-headless==4.9.0.80
+scikit-image==0.23.2
+Pillow==10.3.0
+pydicom==2.4.4
+
+# ML utilities
+scikit-learn==1.4.2
+
+# Tracking & reporting
+mlflow==2.13.0
+matplotlib==3.9.0
+reportlab==4.2.0
