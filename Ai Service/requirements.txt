@@ -1,0 +1,48 @@
+# API
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+httpx==0.27.0
+
+# DB
+sqlalchemy==2.0.30
+asyncpg==0.29.0
+redis==5.0.4
+alembic==1.13.1
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+cryptography==42.0.7
+
+# Core DL
+torch==2.2.2
+torchvision==0.17.2
+tensorflow==2.16.1
+keras==3.3.3
+
+# RL
+stable-baselines3==2.3.2
+gymnasium==0.29.1
+
+# CV
+opencv-python-headless==4.9.0.80
+scikit-image==0.23.2
+Pillow==10.3.0
+pydicom==2.4.4
+
+# ML utilities
+scikit-learn==1.4.2
+
+# Tracking & reporting
+mlflow==2.13.0
+matplotlib==3.9.0
+reportlab==4.2.0
+
+# Logging
+loguru>=0.7.0
+
+# Numeric
+numpy>=1.24.0
