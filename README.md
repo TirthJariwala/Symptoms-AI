@@ -1,4 +1,4 @@
-# 🏥 Smart Disease Prediction System (SDPS)
+# 🏥 Smart Disease Prediction System
 
 > An intelligent healthcare decision-support platform that combines Deep Learning, Medical Image Analysis, Explainable AI, and Adaptive Learning to assist healthcare professionals in disease diagnosis.
 
@@ -12,7 +12,7 @@
 
 # 📖 Project Overview
 
-The Smart Disease Prediction System (SDPS) is an advanced AI-powered clinical decision support platform designed to assist healthcare professionals in identifying diseases from medical imaging data.
+The Smart Disease Prediction System is an advanced AI-powered clinical decision support platform designed to assist healthcare professionals in identifying diseases from medical imaging data.
 
 The platform leverages Convolutional Neural Networks (CNNs) to analyze medical images and generate disease predictions while providing confidence scores and visual explanations. The system is designed as a diagnostic assistance tool that enhances clinical decision-making rather than replacing healthcare professionals.
 
